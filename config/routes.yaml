@@ -1,0 +1,4 @@
+api:
+    resource: 'App\Controller\ApiController'
+    type:     rest
+    prefix:   /api

@@ -1,0 +1,15 @@
+parameters:
+    bin_dir: "./bin"
+    git_dir: "."
+    tasks:
+        securitychecker:
+            format: simple
+        git_conflict: ~
+        git_blacklist:
+            keywords:
+                - 'dump('
+                - 'print_r('
+                - 'die('
+                - 'exit('
+        phpcs:
+            standard: 'vendor/m6web/symfony2-coding-standard/Symfony2'
